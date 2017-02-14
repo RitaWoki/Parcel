@@ -1,0 +1,49 @@
+<h1>Pony Express</h1>
+<h3><em>Delivering stuff from here to there</em></h3>
+<form action="/cost">
+  <div class="form-group">
+    <label for="flat_rate">Would you like a flat rate box? If so, choose from the following options:</label>
+    <select class="form-control" name="flat_rate">
+      <option>none</option>
+      <option>small</option>
+      <option>medium</option>
+      <option>large</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="width">Parcel width:</label>
+    <input type="text" name="width">
+  </div>
+  <div class="form-group">
+    <label for="height">Parcel height:</label>
+    <input type="text" name="height">
+  </div>
+  <div class="form-group">
+    <label for="length">Parcel length:</label>
+    <input type="text" name="length">
+  </div>
+  <div class="form-group">
+    <label for="weight">Parcel weight:</label>
+    <input type="text" name="weight">
+  </div>
+  <div class="form-group">
+    <label for="distance">Distance to destination:</label>
+    <input type="text" name="distance">
+  </div>
+  <div class="form-group">
+    <label for="speed">Select a shipping option:</label>
+    <select class="form-control" name="speed">
+      <option>standard</option>
+      <option>2-day</option>
+      <option>overnight</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="wrapping">Would you like this gift wrapped?:</label>
+    <select class="form-control" name="wrapping">
+      <option>no</option>
+      <option>yes</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
